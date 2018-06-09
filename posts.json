@@ -1,2 +1,11 @@
 [
+    {
+        "id": 1,
+        "title": "Being an\u00a0Imposter",
+        "md_path": "./posts.md/being_an_imposter.md",
+        "html_path": "./posts/being_an_imposter.html",
+        "preview": "Let me tell you my story, I'm a 22 year old engineering student who have been trying to learn programming since he was 14, and mostly stumbled a lot along the way. I've always been fascinated by computers, those strange white things -  that's how they looked back then -  and what they can do, but mostly I didn't know a damn thing about how they work, and never thought that one day it would be my career to write software for them.",
+        "link": "/posts/being_an_imposter.html",
+        "timestamp": "June, 09 2018"
+    }
 ]
