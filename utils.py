@@ -143,7 +143,7 @@ def build_index():
     preview_template = load_template(PREVIEW_TEMPLATE)
     
     previews = ''.join([
-        render_preview(post, preview_template) for post in posts_list
+        render_preview(post, preview_template) for post in reversed(posts_list)
     ])
 
     html = template.format(previews=previews)
