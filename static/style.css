@@ -5,7 +5,7 @@ body {
 
 a {
     text-decoration: none !important;
-    color: #a9a9a9;
+    color: #282828;
 }
 
 p, li{
@@ -63,9 +63,13 @@ code {
 }
 
 .article {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     padding-bottom: 15px;
     padding-right: 340px;
+    padding-left: 25px;
+    border-width: 1px;
+    border-color: #6495ed;
+    border-left-style: solid;
 }
 
 .post {
@@ -92,17 +96,13 @@ code {
     font-size: 0.9rem;
 }
 
-.sm-text {
-    padding-left: 4px;
-}
-
 .post-preview:after {
   content: "";
   display: block;
   position: absolute;
   width: 470px;
-  height: 70px;
-  margin-top: -80px;
+  height: 60px;
+  margin-top: -60px;
   background: -webkit-linear-gradient(transparent, #FFF) left repeat;
   background: linear-gradient(transparent, #FFF) left repeat;
 }
